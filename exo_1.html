@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        <fieldset class="first">
-            <label for="Name">Full Name<span>*</span></label>
-            <input type="text" name="" value="first" required>
-            <input type="text" name="" value="Last" required>
 
-            <label for="mail">Email<span>*</span></label>
-            <input type="email" name="email" size="30" maxlength="40" value="" id="email" />
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire Exo1</title>
+</head>
 
-            <label for="suject">Subject</label>
-    <select>
-      <option></option>
+<body>
+    <form>
+
+    <fieldset class="first">
+        <label>Full Name<sup>*</sup></label>
+        <input type="text" name="first" value="first" required>
+        <input type="text" name="last" value="Last" required>
+
+        <label>Email<sup>*</sup></label>
+        <input type="email" name="email" size="30" maxlength="40" value="" id="email" />
+
+        <label>Subject</label>
+        <select>
+      <option>_</option>
       <option>Advertise</option>
       <option>tu veux voir ma bite ?</option>
     </select>
-            <label for="text">Your Message<span>*</span></label>
-            <textarea name="name" rows="8" cols="80" required></textarea>
+        <label>Your Message<sup>*</sup></label>
+        <textarea name="name" rows="8" cols="80" required></textarea>
 
-    <input type="button" name="submit" value="Submit">
-        </fieldset>
+        <input type="button" name="submit" value="Submit">
+    </fieldset>
 
-        <fieldset class="second">
-            <legend>Provide your information</legend><hr>
-            <label for="Name">Name<span>*</span></label>
-            <label for="mail">Email<span>*</span></label>
-            <input type="email" name="email" size="30" maxlength="40" value="" id="email" />
-            <input type="text" name="" value="">
-        </fieldset>
-    </body>
+    <fieldset class="second">
+        <legend>Provide your information</legend>
+        <hr>
+        <label>Name<sup>*</sup></label>
+        <input type="text" name="name" value="" required>
+
+    </fieldset>
+</form>
+</body>
+
 </html>
