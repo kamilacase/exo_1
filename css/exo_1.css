@@ -12,7 +12,7 @@ sup
 {
     display: block;
 }
-label
+#form1 label
 {
     display: block;
     font-family: 'Roboto', sans-serif;
@@ -66,4 +66,48 @@ input
 {
     margin-top: 2em;
     margin-bottom: 2em;
+}
+
+#leg
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.second label
+{
+    height: 40px;
+}
+
+.second input
+{
+
+}
+
+.phone
+{
+    width: 50px;
+}
+
+.phone1
+{
+    width: 50px;
+    margin-left: 5px;
+}
+
+.bobby .phone
+{
+    margin-left: 10em;
+}
+
+.second label input
+{
+    margin-left: 10em;
+    display: inline-flex;
+}
+
+#form2 label
+{
+    display: block;
 }
