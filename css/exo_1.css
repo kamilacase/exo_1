@@ -1,0 +1,28 @@
+sup
+{
+    color: red;
+}
+.first label
+{
+    font-size: bolder;
+    font-size: 20px;
+
+}
+.first
+{
+    display: block;
+
+}
+label
+{
+    display: block;
+}
+select
+{
+    display: block;
+}
+fieldset
+{
+    width: 800px;
+    margin: auto;
+}
