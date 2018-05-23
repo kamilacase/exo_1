@@ -18,7 +18,7 @@ sup
     font-family: 'Roboto', sans-serif;
     margin-top: 1em;
 }
-select
+#form1 select
 {
     display: block;
 
@@ -29,7 +29,7 @@ fieldset
     margin: auto;
 }
 
-input
+#form1 input
 {
     width: 300px;
     height: 40px;
@@ -80,34 +80,29 @@ input
     height: 40px;
 }
 
-.second input
+#form2 input
 {
-
+    width: 40%;
+    height: 40px;
 }
 
 .phone
 {
     width: 50px;
 }
-
 .phone1
 {
     width: 50px;
     margin-left: 5px;
 }
-
-.bobby .phone
-{
-    margin-left: 10em;
-}
-
-.second label input
-{
-    margin-left: 10em;
-    display: inline-flex;
-}
-
 #form2 label
 {
-    display: block;
+    width: 30%;
+    display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+}
+#form2 .phone1
+{
+    width: 20px;
 }
